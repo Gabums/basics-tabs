@@ -1,54 +1,111 @@
-
-	<!doctype html>
+<!doctype html>
 	<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+			<meta name="description" content="">
+			<meta name="author" content="">
 
-		<title>Basics Tabs</title>
+			<title>Basics Tabs</title>
 
 
-		<!-- Bootstrap core CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+			<!-- Bootstrap core CSS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-	</head>
+		</head>
 
-	<body>
+		<body>
 
-	<ul class="nav nav-tabs" id="myCareTabs" role="tablist">
-	    <li class="nav-item">
-	      <a class="nav-link active" id="virtual-tab" data-toggle="tab" href="#virtual-care" role="tab" aria-controls="virtual-care" aria-selected="true">Virtual Care</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" id="retail-tab" data-toggle="tab" href="#retail-clinic" role="tab" aria-controls="retail-clinic" aria-selected="false">Retail Clinic</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" id="urgent-tab" data-toggle="tab" href="#urgent-care" role="tab" aria-controls="urgent-care" aria-selected="false">Urgent Care Center</a>
-	    </li>
-	    <li class="nav-item">
-	      <a class="nav-link" id="emergency-tab" data-toggle="tab" href="#emergency-room" role="tab" aria-controls="emergency-room" aria-selected="false">Emergency Room</a>
-	    </li>
-	  </ul>
-	  <div class="tab-content">
-	    <div class="tab-pane active" id="virtual-care" role="tabpanel" aria-labelledby="virtual-tab">1</div>
-	    <div class="tab-pane" id="retail-clinic" role="tabpanel" aria-labelledby="retail-tab">2</div>
-	    <div class="tab-pane" id="urgent-care" role="tabpanel" aria-labelledby="urgent-tab">3</div>
-	    <div class="tab-pane" id="emergency-room" role="tabpanel" aria-labelledby="emergency-tab">4</div>
-	  </div>
- 
+		<ul class="nav nav-tabs" id="myCareTabs" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link active" id="virtual-tab" data-toggle="tab" href="#virtual-care" role="tab" aria-controls="virtual-care" aria-selected="true">Virtual Care</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="retail-tab" data-toggle="tab" href="#retail-clinic" role="tab" aria-controls="retail-clinic" aria-selected="false">Retail Clinic</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="urgent-tab" data-toggle="tab" href="#urgent-care" role="tab" aria-controls="urgent-care" aria-selected="false">Urgent Care Center</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="emergency-tab" data-toggle="tab" href="#emergency-room" role="tab" aria-controls="emergency-room" aria-selected="false">Emergency Room</a>
+			</li>
+		</ul>
+			
+		<div class="tab-content">
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		
-	<script>
+			<div class="tab-pane active" id="virtual-care" role="tabpanel" aria-labelledby="virtual-tab">
+
+        <p>Day or night, you can talk to a board-certified doctor who can treat non-emergency conditions.</p>
+        <p>Some plans do not include coverage for telemedicine services. Check your benefits booklet to determine if telemedicine is currently available for you.</p>
+
+        <div class="row tab-types">
+            <div class="col-3">
+                <p>Cost:</p> 
+                <img src="https://basics.ibx.com/wp-content/uploads/2018/11/icon-cost3.png">
+            </div>
+            <div class="col-3">
+                <p>Time:</p> 
+                <img src="https://basics.ibx.com/wp-content/uploads/2018/11/icon-time1.png">
+            </div>
+            <div class="col-3">
+                <p>Severity:</p> 
+                <img src="https://basics.ibx.com/wp-content/uploads/2018/11/icon-severity1.png">
+            </div>
+            <div class="col-3">
+                <p>Best For:</p> 
+                <img src="https://basics.ibx.com/wp-content/uploads/2018/11/icon-best1.png">
+            </div>
+        </div>
+        <div class="row tab-symptoms">
+            <div class="col">
+                Additional Conditions
+                <ul>
+                    <li>
+                        <ul>
+                            <li>Allergic reactions (minor)</li>
+                            <li>Bronchitis</li>
+                            <li>Cold, cough, and flu</li>
+                            <li>Digestive issues</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Eye pain or irritation</li>
+                            <li>Fever</li>
+                            <li>Headache (minor)</li>
+                            <li>Skin conditions</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>Sinus pain</li>
+                            <li>Sore throat</li>
+                            <li>Urinary tract infection</li>
+                            <li>Vomiting</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+			<div class="tab-pane" id="retail-clinic" role="tabpanel" aria-labelledby="retail-tab">2</div>
+			<div class="tab-pane" id="urgent-care" role="tabpanel" aria-labelledby="urgent-tab">3</div>
+			<div class="tab-pane" id="emergency-room" role="tabpanel" aria-labelledby="emergency-tab">4</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<script>
 		$('#myCareTabs a').on('click', function (e) {
-			e.preventDefault()
-			$(this).tab('show')
-		})
-	</script>
+				e.preventDefault()
+				$(this).tab('show')
+			})
+		</script>
 
 
-	</body>
+		</body>
 	</html>
